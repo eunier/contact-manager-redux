@@ -5,7 +5,6 @@ import {
   GET_CONTACT,
   UPDATE_CONTACT
 } from '../actions/types';
-import { bindActionCreators } from 'redux';
 
 const initialState = {
   contacts: [],
